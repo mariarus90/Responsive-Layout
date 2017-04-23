@@ -60,10 +60,7 @@ li {
   margin: 0 auto;
 }
 
-.content-block {
-  padding: 1em;
-  background: #ecf0f1;
-}
+
 
 
 
@@ -161,14 +158,82 @@ MEDIA QUERIES
 
 
 
+@media screen and (min-width: 768px) {
+
+   .main-nav{
+     background-color: #FAFAFA;
+   }
+
+   .main-nav li{
+     display: inline-block;
+   }
+
+
+  .profile{
+    float: right;
+    margin-left: 15px;
+   }
+
+   .about {
+    max-width: 90%;
+    padding: 40px;
+  }
+
+  .about p{
+   text-align: left;
+  }
+
+
+  .section {
+    max-width: 45%;
+    max-height: 380px;
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
-  .banner-image {
-    margin: 2em auto;
-  }
 
-  .content-block, .banner-image {
-    border-radius: 3px;
-    box-shadow: 0px 1px 0px rgba(52, 73, 94, 0.2);
-  }
 
+     .main-nav{
+       background-color: #FAFAFA;
+     }
+
+     .name {
+       display: inline;
+       float:left;
+       margin: 15px;
+     }
+
+     .main-nav li{
+       display: inline-block;
+     }
+
+
+    .profile{
+      max-width: 300px;
+     float: right;
+     margin-left: 30px;
+    }
+
+     .about {
+      max-width: 90%;
+      margin-bottom: 70px;
+    }
+
+    .about p{
+     text-align: left;
+    }
+
+
+    .section {
+      max-width: 28%;
+      max-height: 380px;
+      display: inline-block;
+      margin: 5px;
+    }
+
+    .wrapper{
+      max-width: 1000px;
+    }
 }
